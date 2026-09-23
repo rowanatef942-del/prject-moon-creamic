@@ -1,0 +1,205 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  color: #333;
+  background-color: #bdbbbb;
+
+}
+
+  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+ a {
+text-decoration: none;
+}
+
+
+
+
+
+
+/* ================= NAVBAR ================= */
+
+.Navbar {
+    width: 100%;
+    background-color: #fff;
+}
+
+.container-nav {
+    width: 100%;
+    padding: 21px 165px;
+    box-sizing: border-box;
+}
+
+.row {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* ================= MENU ================= */
+
+.menu {
+    display: none;
+}
+
+.btn {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btn img {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+
+/* ================= LOGO ================= */
+
+.logo {
+    width: 145px;
+    height: 40px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+/* ================= LINKS ================= */
+
+.Links {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Links ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+
+/* ================= ICONS ================= */
+
+.icons ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.icons li {
+    display: flex;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    
+}
+
+
+
+
+/* ================= PHONE ================= */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .container-nav {
+        padding: 20px;
+    }
+
+    .row {
+        justify-content: space-between;
+    }
+
+    /* Menu */
+    .menu {
+        display: block;
+    }
+
+    /* Logo */
+    .logo {
+        width: 120px;
+        height: auto;
+    }
+
+    /* Links */
+    .Links {
+        display: none;
+    }
+
+    /* Icons */
+    .icons ul {
+        gap: 0;
+    }
+
+    .icons .hidden {
+        display: none;
+    }
+
+    /* أول icon- Search */
+    .icons li:first-child {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ================= TABLET  ================= */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .container-nav {
+        padding: 20px 40px;
+    }
+
+    .Links ul {
+        gap: 20px;
+    }
+
+    .icons ul {
+        gap: 12px;
+    }
+
+    .logo {
+        width: 130px;
+        height: auto;
+    }
+}
