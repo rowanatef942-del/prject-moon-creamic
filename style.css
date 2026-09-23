@@ -547,3 +547,275 @@ text-decoration: none;
         font-size: 12px;
     }
 }
+
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    width: 100%;
+    background-color: #3A3845;
+    color: #fff;
+}
+
+
+/* ===== Footer Container ===== */
+
+.footer-container {
+    width: 1445px;
+    padding: 60px  165px ;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ===== Footer About ===== */
+
+.footer-about {
+    width: 30%;
+    border-right: 1px solid #c0bfbf;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+
+.footer-about img {
+    width: 145px;
+    height: 38.33px;
+    display: block;
+    margin-bottom: 20px;
+    background-color: #cacaca;
+}
+
+.footer-about p {
+    width: 250px;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 0 25px;
+    
+}
+
+.footer-about .btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+/* ===== Footer Columns ===== */
+
+.footer-column {
+    width: 18%;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 20px;
+    font-style: semibold;
+    line-height: 22px;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column li {
+    margin-bottom: 12px;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+
+/* ===== Bottom Footer ===== */
+
+.footer-bottom {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: solid;
+    line-height: 22px;
+    color: #6D758F;
+
+}
+
+.footer-bottom a {
+    color: #6D758F;
+    text-decoration: underline;
+}
+
+
+
+/*====================== Mobile ===========*/
+@media (min-width: 320px) and (max-width: 767px) {
+
+    footer {
+        width: 100%;
+    }
+
+    .footer-container {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px 15px;
+    }
+
+    /* ===== About ===== */
+
+    .footer-about {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 30px;
+        border-right: none;
+        border-bottom: 1px solid #c0bfbf;
+    }
+
+    .footer-about img {
+        width: 120px;
+        height: auto;
+    }
+
+    .footer-about p {
+        width: 100%;
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-about .btn {
+        padding: 9px 15px;
+        font-size: 11px;
+    }
+
+
+    /* ===== Columns ===== */
+
+    .footer-column {
+        width: calc((100% - 30px) / 3);
+    }
+
+    .footer-column h3 {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+
+    .footer-column li {
+        margin-bottom: 8px;
+    }
+
+    .footer-column a {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+
+    /* ===== Bottom ===== */
+
+    .footer-bottom {
+        padding: 15px 15px;
+    }
+
+    .footer-bottom p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+}
+
+
+
+/*============= tablet =====================*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    footer {
+        width: 100%;
+    }
+
+    .footer-container {
+        width: 100%;
+        height: auto;
+        padding: 50px 40px;
+        gap: 30px;
+    }
+
+    .footer-about {
+        width: 30%;
+        padding-right: 30px;
+    }
+
+    .footer-about img {
+        width: 120px;
+        height: auto;
+    }
+
+    .footer-about p {
+        width: 100%;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer-about .btn {
+        padding: 9px 15px;
+        font-size: 11px;
+    }
+
+    .footer-column {
+        width: 20%;
+    }
+
+    .footer-column h3 {
+        font-size: 14px;
+        margin-bottom: 18px;
+    }
+
+    .footer-column a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer-column li {
+        margin-bottom: 10px;
+    }
+
+    .footer-bottom {
+        padding: 18px 20px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
